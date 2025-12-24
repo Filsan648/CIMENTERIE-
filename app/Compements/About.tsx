@@ -18,11 +18,6 @@ const about=[
          title:"Our Vision",
          content:"To become a regional leader in reliable, innovative, and environmentally responsible cement production, while creating long-term value for our customers, partners, and communities."
     }
-
-    
-
-
-
 ]
 
 
@@ -31,7 +26,7 @@ return(
     <div className=" pl-5 pr-5 flex  flex-row">
   <div className="w-1/2"> 
       <Title title="ABOUT US"/>
-    <h1 className="text-6xl text-wrap "> 
+    <h1 className="text-6xl text-black/90 text-wrap font-semibold"> 
     We are established in  <span className="text-yellow-500" >2013 </span> Cimenterie d'Ali-Sabieh produces high quality cement</h1>
   <p className="text-black/60 mt-3 mb-3 ">
  Cimenterie d’Ali-Sabieh (CIMAS) is a major industrial player based in Ali Sabieh, Djibouti.

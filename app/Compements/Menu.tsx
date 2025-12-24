@@ -17,7 +17,7 @@ return(
 
 
 
-      <div>  <Button text='Contact Us' />  </div> 
+      <div>  <Button text='Get in touch' />  </div> 
   
   
   

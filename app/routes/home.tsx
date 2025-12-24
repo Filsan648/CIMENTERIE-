@@ -3,6 +3,13 @@ import { Welcome } from "../welcome/welcome";
 import Menue from "~/Compements/Menu";
 import Hero from "~/Compements/Hero";
 import About from "~/Compements/About";
+import Product from "~/Compements/product";
+import Chosse from "~/Compements/choose";
+import Cursor from "~/asset/asstes/cursor";
+import Projects from "~/Compements/projet";
+import Client from "~/Compements/client";
+import StatsSection from "~/Compements/states";
+
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
@@ -26,7 +33,7 @@ export default function Home() {
     
   }}
   />
-    <div  className=" relative z-10 flex flex-col gap-10"> <Menue /> <Hero /> <About />  </div >
+    <div  className=" relative z-10 flex flex-col gap-10"><Cursor isHovering={false} text="" title="" /> <Menue /> <Hero /> <About /> <Product /> <Chosse /> <Projects /> <StatsSection /> <Client /> </div >
 </div>
   
   
